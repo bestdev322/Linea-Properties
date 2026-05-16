@@ -1,0 +1,16 @@
+{
+  "name": "linea-firebase-seed",
+  "version": "1.0.0",
+  "description": "Firestore seed script for Linea Properties",
+  "main": "seed.js",
+  "scripts": {
+    "seed": "node seed.js",
+    "seed:help": "node seed.js --help"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
